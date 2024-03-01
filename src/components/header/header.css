@@ -1,0 +1,37 @@
+.header {
+  background: gray;
+  height: 5rem;
+  width: 100vw;
+}
+.navbar {
+  height: 100%;
+  max-width: 75vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-item ul li {
+  background: blue;
+  padding: 1rem;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700px;
+}
+.nav-item ul li:hover {
+  background-color: rgb(93, 93, 200);
+}
+.navitle h1 {
+  background-color: rgb(181, 148, 148);
+  padding: 0 2rem;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
